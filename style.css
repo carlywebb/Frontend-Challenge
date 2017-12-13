@@ -1,0 +1,253 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+  body {
+		background-color: #FFFFFF;
+	  font-family: avenir;
+	  font-size: 20px;
+		color: #000000;
+}
+
+.container {
+  margin: 0 auto;
+  width: 360px;
+  background-color: #FFFFFF;
+}
+
+.ios-container {
+  width: 360px;
+  height: 640px;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  position: relative;
+}
+
+.status-bar {
+  width: 360px;
+  height: 24px;
+}
+
+.hamburger {
+	padding-top: 17px;
+	float: left;
+}
+
+.title {
+	padding-left:80px;
+	padding-top:10px;
+}
+
+.search {
+	padding-top:30px;
+	padding-left:30px;
+}
+
+
+.bus-stop {
+  width: 360px;
+  height: 60px;
+  margin-top: 24px;
+  position: fixed;
+}
+
+.stop {
+  margin-top: 18px;
+  margin-left: 16px;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+  position:relative;
+}
+
+.list-table {
+  width: 360px;
+  height: 48px;
+  margin-top: -4px;
+  background-color: #ffffff;
+  margin-right: 16px;
+
+}
+
+.left {
+  margin-left: 16px;
+  margin-top: 16px;
+}
+
+.middle {
+  margin-top: 16px;
+  padding-left: 56px;
+}
+
+.right {
+  margin-right:16px;
+  float: right;
+  margin-top: 16px;
+}
+
+
+.list-table-content {
+  margin-top: 16px
+}
+
+.list-table li {
+    display: inline-block;
+    font-weight: 500;
+}
+
+.line {
+  margin-left: 16px;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.lines-60 {
+  height: 56px;
+  margin-top: 16px;
+  padding-top: 4px;
+
+}
+
+.lines-60 li {
+  display: inline-block;
+}
+
+
+
+.lines {
+  height: 56px;
+  margin-top: 16px;
+}
+
+.routes {
+  margin-top: 140px;
+}
+
+.lines li {
+  display: inline-block;
+}
+
+.destination {
+  margin-left: auto;
+  font-size: 14px;
+  padding-top:35px;
+  padding-left: 450px;
+  position: absolute;
+  left: 72px;
+  color: #000000;
+
+}
+
+.frequency {
+  margin-right: 16px;
+  padding-top: 3px;
+  display: inline-block;
+  color: #000000;
+  float: right;
+}
+
+.direction {
+  margin-left: 16px;
+  padding-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #000000;
+}
+
+.line-6X {
+  padding-bottom: 16px;
+}
+
+.line-4 {
+  margin-top: 8px;
+}
+
+
+#line {
+  margin-left: 16px;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+#destination {
+  margin-left: 36px;
+  font-size: 14px;
+  padding-top: 22px;
+  position: absolute;
+  left: 72px;   /* aligning text while spacing is not unified */
+  color: #000000;
+}
+
+.special-line {
+  width: 100%;
+  height: 40px;   /* dense single text line */
+}
+
+
+.abnormal-service {
+  margin-left: 16px;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+
+hr {
+  margin-left: 16px;
+  margin-right: 16px;
+  border: 0;
+  height: .5px;
+  padding-top: .5px;
+  padding-bottom: .5px;
+  background: #000000;
+}
