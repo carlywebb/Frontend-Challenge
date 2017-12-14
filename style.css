@@ -63,6 +63,7 @@ table {
   margin: 0 auto;
   position: relative;
   overflow-y:scroll;
+  background-color: #ECEFF3
 }
 
 .status-bar {
@@ -73,17 +74,21 @@ table {
 .hamburger {
 	padding-top: 7px;
 	float: left;
+	padding-left: 2px;
 }
 
 .title {
 	padding-left:80px;
 	padding-top:20px;
+	padding-bottom: 10px;
 	font-size:20px;
+	background-color: #FFFFFF
 }
 
 .search {
 	padding-top:10px;
-	padding-left:30px;
+	padding-left:35px;
+	background-color: #FFFFFF
 }
 
 .list-table {
@@ -91,11 +96,10 @@ table {
   height: 48px;
   margin-top: -4px;
   margin-right: 16px;
+  background-color: #FFFFFF
 }
 
 .list-table-content {
-  padding-top: 10px;
-  padding-bottom:10px;
 }
 
 .list-table li {
