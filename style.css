@@ -78,10 +78,10 @@ table {
 }
 
 .title {
-	padding-left:80px;
+	padding-left:70px;
 	padding-top:20px;
 	padding-bottom: 10px;
-	font-size:20px;
+	font-size:26px;
 	background-color: #FFFFFF
 }
 
@@ -104,23 +104,26 @@ table {
 
 .list-table li {
     display: inline-block;
-    font-weight: 500;
+    font-weight: 50;
 }
 
 .line-heading {
   margin-left: 19px;
   margin-top: 16px;
+  font-size: 19px;
 }
 
 .frequency-heading {
   margin-top: 16px;
   padding-left: 56px;
+  font-size: 19px;
 }
 
 .dest-heading {
   margin-right:16px;
   float: right;
   margin-top: 16px;
+  font-size: 19px;
 }
 
 .direction {
