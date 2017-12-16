@@ -167,16 +167,56 @@ table {
 .dest {
   margin-left: 36px;
   padding-top:3px;
-  padding-left: 190px;
+  padding-left: 165px;
   position: absolute;
   color: #000000;
   display:inline-block;
   font-size: 13px;
 }
 
+.cottage-grove {
+	margin-left: 36px;
+	padding-top:3px;
+	padding-left: 190px;
+	position: absolute;
+	color: #000000;
+	display:inline-block;
+	font-size: 13px;
+}
+
+.madison {
+	margin-left: 36px;
+	padding-top:3px;
+	padding-left: 200px;
+	position: absolute;
+	color: #000000;
+	display:inline-block;
+	font-size: 13px;
+}
+
+.streeterville {
+	margin-left: 36px;
+	padding-top:3px;
+	padding-left: 170px;
+	position: absolute;
+	color: #000000;
+	display:inline-block;
+	font-size: 13px;
+}
+
+.Jpark {
+	margin-left: 36px;
+	padding-top:3px;
+	padding-left: 155px;
+	position: absolute;
+	color: #000000;
+	display:inline-block;
+	font-size: 13px;
+}
+
 .resumes {
   padding-top:3px;
-  padding-left: 108px;
+  padding-left: 90px;
   position: absolute;
   color: #000000;
   display:inline-block;
