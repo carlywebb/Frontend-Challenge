@@ -108,23 +108,24 @@ table {
 }
 
 .line-heading {
-  margin-left: 19px;
+  margin-left: 25px;
   margin-top: 16px;
-  font-size: 19px;
+  font-size: 16px;
 }
 
 .frequency-heading {
   margin-top: 16px;
-  padding-left: 56px;
-  font-size: 19px;
+  padding-left: 44px;
+  font-size: 16px;
 }
 
 .dest-heading {
-  margin-right:16px;
+  margin-right:50px;
   float: right;
   margin-top: 16px;
-  font-size: 19px;
+  font-size: 16px;
 }
+
 
 .direction {
   margin-left: 3px;
@@ -155,7 +156,7 @@ table {
 
 .frequency {
   margin-right: 16px;
-  margin-left: 36px;
+  margin-left: 27px;
   padding-top: 3px;
   display: inline-block;
   position: absolute;
@@ -167,17 +168,48 @@ table {
 .dest {
   margin-left: 36px;
   padding-top:3px;
-  padding-left: 165px;
+  padding-left: 155px;
   position: absolute;
   color: #000000;
   display:inline-block;
   font-size: 13px;
 }
 
+.navypier {
+	margin-left: 36px;
+	padding-top:3px;
+	padding-left: 155px;
+	position: absolute;
+	color: #000000;
+	display:inline-block;
+	font-size: 13px;
+
+}
+
+.devon {
+	margin-left: 36px;
+	padding-top:3px;
+	padding-left: 155px;
+	position: absolute;
+	color: #000000;
+	display:inline-block;
+	font-size: 13px;
+}
+
+.stony {
+	margin-left: 36px;
+	padding-top:3px;
+	padding-left: 155px;
+	position: absolute;
+	color: #000000;
+	display:inline-block;
+	font-size: 13px;
+}
+
 .cottage-grove {
 	margin-left: 36px;
 	padding-top:3px;
-	padding-left: 190px;
+	padding-left: 155px;
 	position: absolute;
 	color: #000000;
 	display:inline-block;
@@ -187,7 +219,7 @@ table {
 .madison {
 	margin-left: 36px;
 	padding-top:3px;
-	padding-left: 200px;
+	padding-left: 155px;
 	position: absolute;
 	color: #000000;
 	display:inline-block;
@@ -197,7 +229,7 @@ table {
 .streeterville {
 	margin-left: 36px;
 	padding-top:3px;
-	padding-left: 170px;
+	padding-left: 155px;
 	position: absolute;
 	color: #000000;
 	display:inline-block;
@@ -216,7 +248,7 @@ table {
 
 .resumes {
   padding-top:3px;
-  padding-left: 90px;
+  padding-left: 75px;
   position: absolute;
   color: #000000;
   display:inline-block;
@@ -229,7 +261,7 @@ table {
 hr {
   margin-left: 16px;
   margin-right: 16px;
-  height: .5px;
+  height: 1px;
   padding-top: .5px;
   padding-bottom: .5px;
   background: #000000;
