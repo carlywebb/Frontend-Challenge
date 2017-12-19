@@ -258,13 +258,20 @@ table {
 }
 
 .resumes {
-  padding-top:6px;
-  padding-left: 75px;
-  padding-top: 9px;
+  padding-left: 99px;
   position: absolute;
   color: #000000;
   display:inline-block;
   font-size: 12px;
+}
+
+.time {
+  padding-left: 99px;
+  padding-top: 11px;
+  position: absolute;
+  color: #000000;
+  display:inline-block;
+  font-size: 12px;	
 }
 
 {}
