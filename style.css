@@ -46,7 +46,6 @@ table {
   box-sizing: border-box;
 }
 
-
   body {
   background-color: #FFFFFF;
   font-family: avenir;
@@ -54,20 +53,12 @@ table {
   color: #000000;
 }
 
-/* Style the search box inside the navigation bar */
-.topnav input[type=text] {
-    float: left;
-    padding: 6px;
-    margin-top: 11px;
-    margin-bottom:11px;
-    margin-right:60px;
-    margin-left: 30px;
-    font-size: 16px;
-    border-radius: 25px;
-    font-family: avenir;
-}
-
-.container {
+.bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 4px;
+    background-color: #000000;
+    margin: 6px 0;
+    border-radius: 10px;
 }
 
 .ios-container {
@@ -81,15 +72,14 @@ table {
 
 .status-bar {
   width: 360px;
-  height: 24px;
+  height: 23px;
+  margin-bottom: 15px;
 }
 
 .hamburger {
 	padding-top: 7px;
-	float: right;
+	float: left;
 	padding-left: 2px;
-	margin-right: 10px;
-	padding-right: 10px;
 }
 
 .title {
@@ -97,12 +87,6 @@ table {
 	padding-top:20px;
 	padding-bottom: 10px;
 	font-size:26px;
-	background-color: #FFFFFF
-}
-
-.search {
-	padding-top:10px;
-	padding-left:35px;
 	background-color: #FFFFFF
 }
 
