@@ -56,12 +56,15 @@ table {
 
 /* Style the search box inside the navigation bar */
 .topnav input[type=text] {
-    float: right;
+    float: left;
     padding: 6px;
-    margin-top: 10px;
-    margin-bottom:10px;
+    margin-top: 11px;
+    margin-bottom:11px;
     margin-right:60px;
+    margin-left: 30px;
     font-size: 16px;
+    border-radius: 25px;
+    font-family: avenir;
 }
 
 .container {
@@ -83,8 +86,10 @@ table {
 
 .hamburger {
 	padding-top: 7px;
-	float: left;
+	float: right;
 	padding-left: 2px;
+	margin-right: 10px;
+	padding-right: 10px;
 }
 
 .title {
